@@ -16,12 +16,3 @@ alias dev="cd ~/dev"
 alias vn="vagrant"
 alias homestead="~/Homestead/homestead"
 
-
-## SMUGMUG #####################################
-# Synchrotron aliases.
-for i in {1..10}; do
-    alias sync-sandbox-$i="synchrotron --notify --exclude-from ~/.synchrotron-ignore amol@amol.smugmug.net:/home/amol/sandboxes/amol-$i/ ~/dev/SmugMug/"
-done
-
-# synchrotron for media  
-alias sync-media="synchrotron --notify --exclude-from ~/.synchrotron-ignore amol@amol.smugmug.net:/home/amol/repos/Media/ ~/dev/Media/"

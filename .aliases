@@ -1,5 +1,7 @@
 # .ssh config reset
+# creates config_dir directory if it doesn't exist
 mkdir -p ~/.ssh/config_dir
+# concacts all different configs in config_dir into one main ssh config file
 cat ~/.ssh/config_dir/* > ~/.ssh/config
 
 # Update system php to 5.7
@@ -14,5 +16,3 @@ alias hm="cd ~/Homestead"
 alias srv="cd ~/srv"
 alias dev="cd ~/dev"
 alias vn="vagrant"
-alias homestead="~/Homestead/homestead"
-
